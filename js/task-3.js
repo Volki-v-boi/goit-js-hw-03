@@ -17,6 +17,17 @@ function filterArray(numbers, value) {
   }
   return newArray;
 }
+
+function filterArray(numbers, value) {
+  const newArray = [];
+  for (let number of numbers) {
+    if (number > value) {
+      newArray.push(number);
+    }
+  }
+  return newArray;
+}
+
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
 console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5]
 console.log(filterArray([1, 2, 3, 4, 5], 5)); // []
