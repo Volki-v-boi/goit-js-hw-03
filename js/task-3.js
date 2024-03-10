@@ -8,15 +8,15 @@
 // Використовуй умовний оператор if усередині циклу для перевірки кожного елемента и додавання до свого масиву.
 // Поверни свій новий масив з підходящими числами як результат.
 
-function filterArray(numbers, value) {
-  const newArray = [];
-  for (let i = 0; i < numbers.length; i += 1) {
-    if (numbers[i] > value) {
-      newArray.push(numbers[i]);
-    }
-  }
-  return newArray;
-}
+// function filterArray(numbers, value) {
+//   const newArray = [];
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] > value) {
+//       newArray.push(numbers[i]);
+//     }
+//   }
+//   return newArray;
+// }
 
 function filterArray(numbers, value) {
   const newArray = [];
